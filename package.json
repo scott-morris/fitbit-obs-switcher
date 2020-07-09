@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "f8801455-9e9a-45f9-b9da-98f856e2e4b2",
+    "appType": "app",
+    "appDisplayName": "OBS Switcher",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "OBS Switcher"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
